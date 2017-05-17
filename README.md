@@ -1,9 +1,17 @@
 # Laravel Blog
 
 This blog system implements a blog system base on Laravel framework.
-Users can register and login when they first use the system.
+
+Users can register and login to the system.
+
 Unauthenticated users can only view the posts.
-However, anthenticated users can create posts, make comments, and use tags.
+
+Authenticated users can create posts, make comments and tags.
+
+In the database schema, User table and Post table are one to many relationship.
+Post and Comment table are one to many relationship.
+Post and Tag table are many to many relationship.
+
 
 ## Installation
 
@@ -27,4 +35,4 @@ create database blog;
 php artisan migrate
 ```
 
-And then, you can run the program.
+And then, you can run the program in browsers.
