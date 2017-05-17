@@ -1,10 +1,10 @@
 # Laravel Blog
 
-This blog system implements a blog system base on Laravel framework.
+A blog system based on Laravel framework.
 
-Users can register and login to the system.
+Users can register and login to the blog.
 
-Unauthenticated users can only view the posts.
+Unauthenticated users can only view posts.
 
 Authenticated users can create posts, make comments and tags.
 
